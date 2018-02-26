@@ -66,7 +66,7 @@ However the architectural details are yet TBD. The target language is Java.
 
 Before looking in the details of the possible events, let recap the typical use case shown in Section 6 of the Grapevine World white paper. In this case, a Pharmaceutical company requires data for a trial, and uses the Grapevine Backbone to request it. 
 
-![Diagram UML of the use case](http://www.mascanc.net/ucuml.png)
+![Diagram UML of the use case](http://www.mascanc.net/plantGOE.png)
 
 In steps 1&2, Patients and HPOs register with Grapevine, in step 3 data is requested, in step 4 the data broker matches potential canditates. This part deserves a bit more focus. In fact agreements shall be made amongst the Grapevine foundation with the requesting Pharma in order to provide the best fit to match patient that suit the requirements from the caller. Matching criteria shall be evaluated case-by-case, thus for this part the component will provide the XDS query criteria by default, with geolocalization of the user. In steps 5 and 6, the patient consents, and such consent is submitted to the HPOs which she registered in the Grapevine database in the form of IHE BPPC. In steps 7 and 8 the GOE queries document metadata, in step 9 metadata is anonymized, in step 10 payment is determined and the requestor is informed (step 11). In step 12 the payment is transferred and in step 13 data retrieval is enabled. In steps 14-17 patients and HPOs are informed and data is retrieved. In step 18 data is cached and anonymized on the data broker, in step 19 data is retrieved by pharma while in the last steps (20-22) payment distributed to patients and HPOs (consult the whitepaper for more detailed information). 
 
