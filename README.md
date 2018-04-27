@@ -91,4 +91,4 @@ This is a rough distribution of timelines expected for the development of the GO
 # Contributors
 
 * Massimiliano Masi <massimiliano.masi@tiani-spirit.com> - [github.com/mascanc](http://github.com/mascanc)
-* Abdallah Miladi <abdallah.miladi@tiani-spirit.com>
+* Abdallah Miladi <abdallah.miladi@tiani-spirit.com> - [github.com/abmiladi](http://github.com/abmiladi)
