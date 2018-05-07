@@ -23,7 +23,7 @@ It is worth noticing that IHE is not limited to the projects above, but it is av
 # The GOE
 The Grapevine World initiative exploits the Blockchain technology as a facilitating infrastrcuture for the data exchange network, and in providing incentives to participate in the network. At the core of the Grapevine World interoperability we have the *orchestration engine*. Following the [Reactive Manifesto](https://www.reactivemanifesto.org), the GOE ecosystem is shown in the following picture (Source: the Grapevine World Token whitepaper).
 
-![The GVW ecosystem](http://www.mascanc.net/ecos1.png)
+![The GVW ecosystem](http://www.mascanc.net/ecos2.jpg)
 
 Each patient has data to share, of two kind: *clinical* and *fitness*. Electronic Health Records, patient summaries, ePrescriptions, they all fall in the clinical category, while vital signs, lifestyle, sport activities, etc, fall in the fitness category. 
 
@@ -42,7 +42,7 @@ Notably, clinical and fitness data fall in two different security and legal cont
 ## Overarching architecture
 
 The architecture of the Grapevine World is shown in the next picture. 
-![The GVW GOE](http://www.mascanc.net/goe.png)
+![The GVW GOE](http://www.mascanc.net/goe1.png)
 
 In relations to the patterns highlighted in [Software Architecture in Practice](https://www.amazon.com/Software-Architecture-Practice-3rd-Engineering/dp/0321815734), in the [P of EAA](https://www.amazon.it/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420), and in the [EIP](https://www.amazon.it/Enterprise-Integration-Patterns-Designing-Deploying/dp/8131725081/ref=pd_lpo_sbs_14_t_1?_encoding=UTF8&psc=1&refRID=SH2CY9BMM4DQ3ADTW1GV), we employ a SOA architectural pattern, with a PubSub system. 
 The data broker is is composed by:
